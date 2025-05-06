@@ -1,0 +1,38 @@
+body {
+    background-color:rgb(245, 245, 252);
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color:rgb(245, 245, 252);
+}
+
+.container {
+    align-items: center;
+    height: 32px;
+    padding: 0px;
+}
+
+.links {
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.font {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.hipervinculo {
+    color: #007bff;
+    font-style: italic;
+}
+
+.general {
+    justify-content: center;
+}
