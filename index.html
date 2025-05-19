@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>noticia</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 
 <body>
-    <div>
+    <div class="infobae">
         <img src="https://www.infobae.com/pf/resources/images/logo_infobae_naranja.svg?d=3138" alt="">
     </div>
     <div class="container">
@@ -24,8 +25,9 @@
     <section>
         <h1>El malestar de Verstappen con Red Bull y su desafiante frase contra un referente del equipo que causó
             impacto en la F1</h1>
-        <h2>El vigente campeón puso en duda el rendimiento de su monoplaza y discrepó públicamente con la opinión de
-            Helmut Marko, el asesor deportivo de la escudería</h2>
+        <p class="sub-title">El vigente campeón puso en duda el rendimiento de su monoplaza y discrepó públicamente con
+            la opinión de
+            Helmut Marko, el asesor deportivo de la escudería</p>
         <div>
             <figcaption>13 Abr, 2025 08:43 a.m. AR</figcaption>
             <img class="general" alt="La crisis de Red Bull en la F1: el tenso cara a cara entre el mánager de Verstappen 
@@ -47,7 +49,7 @@
                         src="https://www.infobae.com/resizer/v2/T2C45URXBJD2XD3G54CB7ENXKY?auth=75ccc0346eae77fb3a5f3df5d4e939f00a4cae1e3aa1aab2fa068e20bc62141d&smart=true&width=256&height=140&quality=85">
                     </img>
                     <span>Te puede interesar:</span>
-                    <a class="hipervinculo"
+                    <a style="font-style: italic; color: rgb(103, 103, 255);"
                         href="https://www.infobae.com/deportes/2025/04/14/la-crisis-de-red-bull-en-la-f1-el-tenso-cara-a-cara-entre-el-manager-de-verstappen-y-un-referente-del-equipo-que-dio-que-hablar/">
                         "La crisis de Red Bull en la F1: el tenso cara a cara entre el mánager de Verstappen y un
                         referente del equipo que dio que hablar"
@@ -56,7 +58,7 @@
             </div>
             <p class="font">
                 Durante un encuentro con los medios holandeses en el paddock
-                <a class="hipervinculo"
+                <a style="font-style: italic; color: rgb(103, 103, 255);" class="hipervinculo"
                     href="https://www.infobae.com/deportes/2025/04/12/la-formula-1-afrontara-su-ultima-practica-y-tendra-la-clasificacion-del-gp-de-bahrein-horario-de-la-actividad-y-todo-lo-que-hay-que-saber/">
                     tras terminar en el 7° puesto de la clasificación de cara al gran premio de Barhein</a>
                 , Verstappen aseguró que <b>las diferencias con McLaren eran predecibles</b> desde el inicio del año:
@@ -131,30 +133,137 @@
     </section>
 </body>
 <footer>
-    <div>
-        <a
-            href="https://api.whatsapp.com/send/?text=La+crisis+de+Red+Bull+en+la+F1%3A+el+tenso+cara+a+cara+entre+el+mánager+de+Verstappen+y+un+referente+del+equipo+que+dio+que+hablar+-+Infobae+https%3A%2F%2Fwww.infobae.com%2Fdeportes%2F2025%2F04%2F14%2Fla-crisis-de-red-bull-en-la-f1-el-tenso-cara-a-cara-entre-el-manager-de-verstappen-y-un-referente-del-equipo-que-dio-que-hablar%2F+&type=custom_url&app_absent=0">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3K7J1Lc5YCAIpqD1aS7EzBNfAlEI9O2t7oA&s"
-                alt="whatsapp">
-        </a>
-        <a
-            href="https://www.infobae.com/deportes/2025/04/14/la-crisis-de-red-bull-en-la-f1-el-tenso-cara-a-cara-entre-el-manager-de-verstappen-y-un-referente-del-equipo-que-dio-que-hablar/">
-
-            <img src="data:image/png;base64,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"
-                alt="twitter">
-
-        </a>
-        <a
-            href="https://www.infobae.com/deportes/2025/04/14/la-crisis-de-red-bull-en-la-f1-el-tenso-cara-a-cara-entre-el-manager-de-verstappen-y-un-referente-del-equipo-que-dio-que-hablar/">
-
-            <img src="https://cdn-icons-png.flaticon.com/256/1077/1077041.png" alt="Facebook">
-
-        </a>
-        <a href="contact.html">
-
-            <b>Win Tickets!</b>
-
-        </a>
+    <div id="footer-menu">
+        <div style="display: grid;" class="footer-menu">
+            <div class="footer-column">
+                <div style="display: flex; flex-direction: column; align-items: center;" class="social-copy">
+                    <div style="display: flex;" class="logo-wrapper">
+                        <img src="https://www.infobae.com/pf/resources/images/logo_infobae_naranja.svg?d=3138" alt="">
+                    </div>
+                    "Seguinos:"
+                    <div class="social-media-buttons"><a href="https://www.facebook.com/Infobae/"
+                            rel="noreferrer nofollow" class="display_flex social-logo" aria-label="facebook link"
+                            target="_blank"><svg class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect class="svg-icon-bg" x="0.5" y="0.5" width="31" height="31" rx="15.5"
+                                    fill="transparent"></rect>
+                                <path
+                                    d="M14.1487 24.9911V15.914H11.5V13.0014H14.1487V12.7155C14.1487 11.9293 14.1202 11.1342 14.1867 10.348C14.1867 9.09719 14.9462 7.96255 16.1424 7.41756C16.5886 7.22101 17.0633 7.09593 17.5475 7.04233C18.5348 6.97086 19.5222 6.98872 20.5 7.10487V9.72258H20.2437C19.6836 9.72258 19.1329 9.72258 18.5728 9.74045C17.9462 9.70471 17.4051 10.1514 17.3671 10.7411C17.3671 10.7947 17.3671 10.8393 17.3671 10.893C17.3481 11.5541 17.3671 12.2152 17.3671 12.8763C17.3671 12.9121 17.3671 12.9567 17.3861 12.9925H20.4335C20.3006 13.9842 20.1677 14.9401 20.0348 15.9229H17.3766V25H14.1582L14.1487 24.9911Z"
+                                    fill="#9B9B9B"></path>
+                                <rect class="svg-icon-border" x="0.5" y="0.5" width="31" height="31" rx="15.5"
+                                    stroke="#9B9B9B"></rect>
+                            </svg></a><a href="https://twitter.com/Infobae/" rel="noreferrer nofollow"
+                            class="display_flex social-logo" aria-label="twitter link" target="_blank"><svg
+                                class="svg-icon" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect class="svg-icon-bg" x="0.5" y="0.5" width="21" height="21" rx="10.5"
+                                    fill="transparent"></rect>
+                                <path
+                                    d="M5.02929 5L9.66241 11.6187L5 17H6.04927L10.1311 12.2887L13.4292 17H17L12.1063 10.009L16.446 5H15.3967L11.6375 9.3391L8.60005 5H5.02929ZM6.57235 5.82578H8.21282L15.4568 16.174H13.8163L6.57235 5.82578Z"
+                                    fill="#9B9B9B"></path>
+                                <rect class="svg-icon-border" x="0.5" y="0.5" width="21" height="21" rx="10.5"
+                                    stroke="#9B9B9B"></rect>
+                            </svg></a><a href="https://www.instagram.com/Infobae/" rel="noreferrer nofollow"
+                            class="display_flex social-logo" aria-label="instagram link" target="_blank"><svg
+                                class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect class="svg-icon-bg" x="0.5" y="0.5" width="31" height="31" rx="15.5"
+                                    fill="transparent"></rect>
+                                <path
+                                    d="M20.3321 10.752C19.7952 10.736 19.3487 11.1413 19.3381 11.68C19.3275 12.2187 19.7368 12.6453 20.2577 12.6667C20.7946 12.6827 21.2411 12.2667 21.2517 11.7387C21.2623 11.2107 20.853 10.7733 20.3321 10.752Z"
+                                    fill="#9B9B9B"></path>
+                                <path
+                                    d="M24 13.7651C24 13.1785 23.9522 12.5865 23.899 11.9998C23.6864 9.96246 22.3149 8.44779 20.3056 8.15979C19.3116 8.02112 18.2857 7.99979 17.2757 7.99979C15.5429 7.99979 13.7993 7.98912 12.0664 8.11179C9.90831 8.26112 8.33488 9.86113 8.15947 12.0265C8.04784 13.3491 8.04784 14.6771 8 16.0158C8.05316 17.3385 8.05316 18.6771 8.16478 20.0051C8.32957 22.0318 9.74884 23.5571 11.7528 23.8451C12.7628 23.9838 13.7887 24.0051 14.8093 24.0051C16.5422 24.0051 18.2751 24.0158 19.9973 23.8931C21.592 23.7705 22.804 22.9545 23.511 21.4665C23.8193 20.8158 23.9575 20.1171 23.9628 19.4025L23.9522 19.4131C23.9787 17.5358 24 15.6478 24 13.7705V13.7651ZM22.4904 19.6051C22.4425 21.3171 21.3422 22.4105 19.6359 22.4585C17.2385 22.5225 14.8252 22.5225 12.4173 22.4585C10.7322 22.4105 9.62658 21.3171 9.58405 19.6211C9.52027 17.2051 9.52027 14.7785 9.58405 12.3518C9.63189 10.6611 10.7322 9.62112 12.4173 9.49846C13.0179 9.46113 13.6292 9.44512 14.2352 9.43446C14.8306 9.42379 18.4505 9.43446 19.6625 9.50912V9.49846C21.3422 9.59979 22.4425 10.6611 22.4904 12.3358C22.5542 14.7518 22.5542 17.1785 22.4904 19.6051Z"
+                                    fill="#9B9B9B"></path>
+                                <path
+                                    d="M16.0533 11.8773C13.7835 11.8667 11.939 13.7173 11.939 15.9947C11.939 18.272 13.7569 20.096 16.0267 20.1013C18.2964 20.112 20.141 18.2613 20.141 15.984C20.141 13.7067 18.323 11.8773 16.0533 11.8773ZM16.0426 18.672C14.5702 18.672 13.3742 17.4613 13.3742 15.984C13.3848 14.5173 14.5755 13.328 16.0373 13.328H16.0479C17.5097 13.328 18.7004 14.528 18.7004 15.9947C18.7004 17.4613 17.515 18.672 16.0479 18.672H16.0426Z"
+                                    fill="#9B9B9B"></path>
+                                <rect class="svg-icon-border" x="0.5" y="0.5" width="31" height="31" rx="15.5"
+                                    stroke="#9B9B9B"></rect>
+                            </svg></a><a href="https://www.youtube.com/c/infobae" rel="noreferrer nofollow"
+                            class="display_flex social-logo" aria-label="youtube link" target="_blank"><svg
+                                class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect class="svg-icon-bg" x="0.5" y="0.5" width="31" height="31" rx="15.5"
+                                    fill="transparent"></rect>
+                                <path
+                                    d="M23.9297 14.1599C23.8592 13.526 23.8064 12.8863 23.6832 12.2583C23.5071 11.372 22.8438 10.7792 21.9517 10.6794C21.0654 10.5796 20.1674 10.4857 19.2752 10.4681C17.4029 10.427 15.5247 10.4153 13.6523 10.4387C12.5606 10.4505 11.4689 10.5444 10.3772 10.6207C10.0192 10.6442 9.66701 10.7087 9.33832 10.8848C8.69269 11.237 8.35813 11.8004 8.24661 12.5165C8.02358 13.8958 7.97075 15.281 8.01771 16.672C8.04705 17.4703 8.11749 18.2685 8.18792 19.0668C8.2114 19.3485 8.26422 19.6361 8.35226 19.9061C8.63399 20.7572 9.25028 21.2267 10.1248 21.3089C11.152 21.4087 12.1791 21.4967 13.2063 21.526C14.6267 21.5671 16.0471 21.5789 17.4733 21.5613C18.7118 21.5437 19.9502 21.4674 21.1887 21.4028C21.5115 21.3852 21.8343 21.3441 22.1454 21.2737C23.0199 21.0682 23.5364 20.4989 23.7125 19.6244C23.8768 18.8085 23.9238 17.9751 23.9649 17.1416C23.9708 16.9831 23.9884 16.8247 24.0001 16.6603V15.2223C23.9766 14.8643 23.9708 14.5062 23.9297 14.1482V14.1599ZM14.4036 18.3918V13.5906C15.7947 14.3888 17.1681 15.1812 18.5768 15.9912C17.1798 16.7953 15.8064 17.5877 14.4036 18.3918Z"
+                                    fill="#E2E2E2"></path>
+                                <rect class="svg-icon-border" x="0.5" y="0.5" width="31" height="31" rx="15.5"
+                                    stroke="#E2E2E2"></rect>
+                            </svg></a><a href="https://web.telegram.org/k/" rel="noreferrer nofollow"
+                            class="display_flex social-logo" aria-label="telegram link" target="_blank"><svg
+                                class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect class="svg-icon-bg" x="0.5" y="0.5" width="31" height="31" rx="15.5"
+                                    fill="transparent"></rect>
+                                <path
+                                    d="M22.8408 8.74494L6.38303 14.9306C6.07012 15.0449 5.91789 15.3794 6.04475 15.6814C6.11241 15.8446 6.2562 15.9752 6.4338 16.0241L10.6201 17.2156L12.1847 21.9976C12.3031 22.3648 12.709 22.5688 13.0812 22.4546C13.1911 22.422 13.2926 22.3567 13.3772 22.2751L15.5422 20.1452L19.7877 23.1482C20.1852 23.4257 20.735 23.3441 21.0225 22.9606C21.0986 22.8626 21.1494 22.7484 21.1747 22.6341L23.9825 9.66708C24.0756 9.22641 23.788 8.7939 23.3313 8.70414C23.1706 8.67149 23.0015 8.68782 22.8492 8.74494M20.7857 11.6256L13.1404 18.154C13.0643 18.2193 13.0135 18.3091 13.0051 18.407L12.709 20.9286C12.709 20.9694 12.6668 21.002 12.6245 20.9939C12.5906 20.9939 12.5653 20.9694 12.5568 20.9449L11.3474 17.1747C11.2882 17.0034 11.3644 16.8157 11.525 16.7178L20.5573 11.3155C20.6504 11.2584 20.7772 11.291 20.828 11.3808C20.8787 11.4624 20.8618 11.5603 20.7941 11.6256"
+                                    fill="#9B9B9B"></path>
+                                <rect class="svg-icon-border" x="0.5" y="0.5" width="31" height="31" rx="15.5"
+                                    stroke="#9B9B9B"></rect>
+                            </svg></a><a href="https://www.linkedin.com/company/infobae/" rel="noreferrer nofollow"
+                            class="display_flex social-logo" aria-label="linkedIn link" target="_blank"><svg
+                                class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect class="svg-icon-bg" x="0.5" y="0.5" width="31" height="31" rx="15.5"
+                                    fill="transparent"></rect>
+                                <path
+                                    d="M13.5556 24V13.2231H16.963V14.6949C17.0185 14.6368 17.0648 14.5787 17.1111 14.5206C17.8611 13.349 19.2037 12.739 20.537 12.981C22.3889 13.1359 23.8426 14.7046 23.9259 16.6411C23.9722 17.0478 24 17.4641 24 17.8708C24 19.817 24 21.7633 24 23.7095V23.9806H20.5741V23.6805C20.5741 21.8892 20.5741 20.0882 20.5741 18.2969C20.5741 17.8805 20.5278 17.4545 20.4259 17.0478C20.1945 16.1279 19.2963 15.5663 18.4074 15.8084C18.2037 15.8665 18 15.9633 17.8333 16.0989C17.3333 16.4281 17.0185 16.9897 16.9907 17.6094C16.9722 18.1419 16.9722 18.6842 16.9722 19.2167V23.9903H13.5648L13.5556 24ZM8.22221 24V13.2037H8.74073C9.62036 13.2037 10.5 13.2037 11.3796 13.2037C11.5833 13.2037 11.6482 13.2328 11.6482 13.4748V23.9903H8.22221V24ZM8.00927 9.88254C8.00927 8.84648 8.80555 8.00408 9.78703 8.00408C9.84259 8.00408 9.89816 8.00408 9.95372 8.00408C10.9445 7.9363 11.7963 8.72061 11.8611 9.75666C11.8611 9.79539 11.8611 9.84381 11.8611 9.88254C11.8426 10.9283 11.0278 11.761 10.0278 11.7416C9.99074 11.7416 9.95369 11.7416 9.92591 11.7416H9.90741C8.92592 11.8191 8.07407 11.0445 8 10.0181C8 9.96968 8 9.93095 8 9.88254H8.00927Z"
+                                    fill="#9B9B9B"></path>
+                                <rect class="svg-icon-border" x="0.5" y="0.5" width="31" height="31" rx="15.5"
+                                    stroke="#9B9B9B"></rect>
+                            </svg></a></div>
+                </div>
+            </div>
+            <div class="footer-column">
+                <span class="footer-title">
+                    Secciones
+                </span>
+                <div style="display: flex; justify-content: center;" class="footer-seccion">
+                    <span>América</span>
+                    <span>Argentina</span>
+                    <span>Colombia</span>
+                    <span>España</span>
+                    <span>Peru</span>
+                    <span>¡Últimas Noticias!</span>
+                </div>
+            </div>
+            <div class="footer-column">
+                <span class="footer-title">
+                    Contactenos
+                </span>
+                <div style="display: flex; justify-content: center;" class="footer-seccion">
+                    <span>Redacción</span>
+                    <span>Contacto Comercial</span>
+                    <span>Media Kit</span>
+                    <span>Empleo</span>
+                </div>
+            </div>
+            <div class="footer-column">
+                <span class="footer-title">
+                    Legales
+                </span>
+                <div style="display: flex; justify-content: center;" class="footer-seccion">
+                    <span>Terminos y Condiciones</span>
+                    <span>Politica de Privacidad</span>
+                </div>
+            </div>
+            <div class="footer-column">
+                <span class="footer-title">
+                    Sorteo
+                </span>
+                <div style="display: flex; justify-content: center;" class="footer-seccion">
+                    <a href="contact.html">
+                        <b>Win Tickets!</b>
+                    </a>
+                </div>
+            </div>
+        <div style="display: flex; flex-direction: column; justify-content: center">
+            <span class="copyright-text">
+                Todos Los Derechos Reservados © 2025 Infobae.
+            </span>
+        </div>
     </div>
 </footer>
 
