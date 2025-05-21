@@ -1,38 +1,127 @@
 body {
-    background-color:rgb(245, 245, 252);
-    margin-left: 190px;
-    margin-right: 190px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  background-color: rgb(245, 245, 252);
+  margin-left: 190px;
+  margin-right: 190px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 footer {
-    background-color:rgb(245, 245, 252);
+  background-color: #3b3b3b;
+  
+}
+
+.infobae {
+  width: 280px;
+  height: 65px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 25px;
+  overflow: hidden;
+  justify-content: center;
 }
 
 .container {
-    align-items: center;
-    height: 32px;
-    padding: 0px;
+  border-bottom: 1px solid black;
+  align-items: center;
+  border-top: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  height: 32px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.sub-title {
+  font-size: 40px;
 }
 
 .links {
-    color: black;
-    font-size: 18px;
-    line-height: 30px;
+  color: black;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: Roboto;
 }
 
 .font {
-    font-family: Roboto, sans-serif;
-    font-size: 18px;
-    text-align: left;
-}
-
-.hipervinculo {
-    color: #007bff;
-    font-style: italic;
+  font-family: Roboto, sans-serif;
+  font-size: 22px;
+  text-align: left;
 }
 
 .general {
-    justify-content: center;
+  justify-content: center;
+}
+
+.footer-menu{
+    grid-template-columns: repear(4, 25%);
+    border-bottom: 1px solid #d5d5d5;
+    width: 100%;
+}
+
+.footer-column {
+    grid-template-columns: 100%;
+    padding-left: 0;
+    row-gap: 4px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.social-media-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+a,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mobile,
+.tablet,
+.desktop,
+.tv {
+  display: none;
+}
+
+@media only screen and (max-with: 480px) {
+  .mobile {
+    display: block;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-with: 480px) and (max-width: 768px) {
+  .tablet {
+    display: block;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-with: 768px) and (max-width: 1440px) {
+  .desktop{
+    display: block;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .tv {
+    display: block;
+    font-size: 30px;
+  }
 }
