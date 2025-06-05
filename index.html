@@ -10,6 +10,21 @@
 </head>
 
 <body>
+    <header class="header">
+        <input type="checkbox" id="nav-toggle-checkbox" class="nav-toggle-checkbox" />
+        <label for="nav-toggle-checkbox" class="nav-toggle" aria-label="Abrir menú">&#9776;</label>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a class="links" href="https://www.infobae.com/ultimas-noticias/">¡Últimas Noticias!</a></li>
+            <li><a class="links" href="https://www.infobae.com/politica/">Política</a></li>
+            <li><a class="links" href="https://www.infobae.com/economia/">Economía</a></li>
+            <li><a class="links" href="https://www.infobae.com/economia/divisas/dolar-hoy/">Dólar Hoy</a></li>
+            <li><a class="links" href="https://www.infobae.com/deportes/">Deportes</a></li>
+            <li><a class="links" href="https://www.infobae.com/sociedad/">Sociedad</a></li>
+            <li><a class="links" href="https://www.infobae.com/sociedad/policiales/">Policiales</a></li>
+          </ul>
+        </nav>
+      </header>
     <div class="infobae">
         <img src="https://www.infobae.com/pf/resources/images/logo_infobae_naranja.svg?d=3138" alt="">
     </div>
@@ -134,16 +149,17 @@
 </body>
 <footer>
     <div id="footer-menu">
-        <div style="display: grid;" class="footer-menu">
+        <div class="footer-menu">
             <div class="footer-column">
-                <div style="display: flex; flex-direction: column; align-items: center;" class="social-copy">
-                    <div style="display: flex;" class="logo-wrapper">
-                        <img src="https://www.infobae.com/pf/resources/images/logo_infobae_naranja.svg?d=3138" alt="">
+                <div class="social-copy">
+                    <div class="logo-wrapper">
+                        <img src="https://www.infobae.com/pf/resources/images/logo_infobae_naranja.svg?d=3138" alt="" />
                     </div>
                     "Seguinos:"
-                    <div class="social-media-buttons"><a href="https://www.facebook.com/Infobae/"
-                            rel="noreferrer nofollow" class="display_flex social-logo" aria-label="facebook link"
-                            target="_blank"><svg class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                    <div class="social-media-buttons">
+                        <a href="https://www.facebook.com/Infobae/" rel="noreferrer nofollow" class="display_flex social-logo"
+                            aria-label="facebook link" target="_blank">
+                            <svg class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect class="svg-icon-bg" x="0.5" y="0.5" width="31" height="31" rx="15.5"
                                     fill="transparent"></rect>
@@ -152,9 +168,9 @@
                                     fill="#9B9B9B"></path>
                                 <rect class="svg-icon-border" x="0.5" y="0.5" width="31" height="31" rx="15.5"
                                     stroke="#9B9B9B"></rect>
-                            </svg></a><a href="https://twitter.com/Infobae/" rel="noreferrer nofollow"
-                            class="display_flex social-logo" aria-label="twitter link" target="_blank"><svg
-                                class="svg-icon" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                            </svg></a><a href="https://twitter.com/Infobae/" rel="noreferrer nofollow" class="display_flex social-logo"
+                            aria-label="twitter link" target="_blank">
+                            <svg class="svg-icon" width="22" height="22" viewBox="0 0 22 22" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect class="svg-icon-bg" x="0.5" y="0.5" width="21" height="21" rx="10.5"
                                     fill="transparent"></rect>
@@ -164,8 +180,8 @@
                                 <rect class="svg-icon-border" x="0.5" y="0.5" width="21" height="21" rx="10.5"
                                     stroke="#9B9B9B"></rect>
                             </svg></a><a href="https://www.instagram.com/Infobae/" rel="noreferrer nofollow"
-                            class="display_flex social-logo" aria-label="instagram link" target="_blank"><svg
-                                class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                            class="display_flex social-logo" aria-label="instagram link" target="_blank">
+                            <svg class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect class="svg-icon-bg" x="0.5" y="0.5" width="31" height="31" rx="15.5"
                                     fill="transparent"></rect>
@@ -181,8 +197,8 @@
                                 <rect class="svg-icon-border" x="0.5" y="0.5" width="31" height="31" rx="15.5"
                                     stroke="#9B9B9B"></rect>
                             </svg></a><a href="https://www.youtube.com/c/infobae" rel="noreferrer nofollow"
-                            class="display_flex social-logo" aria-label="youtube link" target="_blank"><svg
-                                class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                            class="display_flex social-logo" aria-label="youtube link" target="_blank">
+                            <svg class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect class="svg-icon-bg" x="0.5" y="0.5" width="31" height="31" rx="15.5"
                                     fill="transparent"></rect>
@@ -192,8 +208,8 @@
                                 <rect class="svg-icon-border" x="0.5" y="0.5" width="31" height="31" rx="15.5"
                                     stroke="#E2E2E2"></rect>
                             </svg></a><a href="https://web.telegram.org/k/" rel="noreferrer nofollow"
-                            class="display_flex social-logo" aria-label="telegram link" target="_blank"><svg
-                                class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                            class="display_flex social-logo" aria-label="telegram link" target="_blank">
+                            <svg class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect class="svg-icon-bg" x="0.5" y="0.5" width="31" height="31" rx="15.5"
                                     fill="transparent"></rect>
@@ -203,8 +219,8 @@
                                 <rect class="svg-icon-border" x="0.5" y="0.5" width="31" height="31" rx="15.5"
                                     stroke="#9B9B9B"></rect>
                             </svg></a><a href="https://www.linkedin.com/company/infobae/" rel="noreferrer nofollow"
-                            class="display_flex social-logo" aria-label="linkedIn link" target="_blank"><svg
-                                class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                            class="display_flex social-logo" aria-label="linkedIn link" target="_blank">
+                            <svg class="svg-icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect class="svg-icon-bg" x="0.5" y="0.5" width="31" height="31" rx="15.5"
                                     fill="transparent"></rect>
@@ -220,20 +236,20 @@
                 <span class="footer-title">
                     Secciones
                 </span>
-                <div style="display: flex; justify-content: center;" class="footer-seccion">
+                <div class="footer-seccion">
                     <span>América</span>
                     <span>Argentina</span>
                     <span>Colombia</span>
                     <span>España</span>
                     <span>Peru</span>
-                    <span>¡Últimas Noticias!</span>
+                    <span>¡últimas Noticias!</span>
                 </div>
             </div>
             <div class="footer-column">
                 <span class="footer-title">
                     Contactenos
                 </span>
-                <div style="display: flex; justify-content: center;" class="footer-seccion">
+                <div class="footer-seccion">
                     <span>Redacción</span>
                     <span>Contacto Comercial</span>
                     <span>Media Kit</span>
@@ -244,7 +260,7 @@
                 <span class="footer-title">
                     Legales
                 </span>
-                <div style="display: flex; justify-content: center;" class="footer-seccion">
+                <div class="footer-seccion">
                     <span>Terminos y Condiciones</span>
                     <span>Politica de Privacidad</span>
                 </div>
@@ -253,16 +269,15 @@
                 <span class="footer-title">
                     Sorteo
                 </span>
-                <div style="display: flex; justify-content: center;" class="footer-seccion">
+                <div class="footer-seccion">
                     <a href="contact.html">
                         <b>Win Tickets!</b>
                     </a>
                 </div>
             </div>
-        <div style="display: flex; flex-direction: column; justify-content: center">
-            <span class="copyright-text">
+            <div class="copyright-text">
                 Todos Los Derechos Reservados © 2025 Infobae.
-            </span>
+            </div>
         </div>
     </div>
 </footer>
